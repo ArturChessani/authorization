@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Authorization</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="wrapper">
+
+  <div class="block-1">
+        <fieldset class="config-1">
+         <h4>Don`t have an account?</h4>
+         <input class="button" type="submit" value="Sign up">
+        </fieldset>
+    </div>
+
+    <div class="block-2">
+      <form action="#">
+        <fieldset class="config-2">
+          <input type="text" placeholder="Username" name="Username" pattern="[A-Za-z0-9]{6,}" required>
+          <input class="password" type="password" placeholder="Password" name="Username" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{3,10}$" required>
+          <input class="button-log-in" type="submit" value="Log in" required>
+        </fieldset>
+      </form>
+  </div>
+
+</section>
+</body>
+</html>
